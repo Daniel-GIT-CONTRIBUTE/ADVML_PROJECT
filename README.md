@@ -55,7 +55,9 @@ A project for COMP 6936
     - **The names and social security numbers of the patients were recently removed from the database, replaced with dummy values.
 
   # Sites Consulted:
-    - https://www.geeksforgeeks.org/generalized-additive-model-in-python/
-    - https://pygam.readthedocs.io/en/latest/notebooks/tour_of_pygam.html
+     1. Nicholas Clarck, "MVGAM", https://ecogambler.netlify.app/blog/autocorrelated-gams/
+     2. Gregg Hogg, "Stock Price Prediction & Forecasting with LSTM Neural Networks in Python", https://www.youtube.com/watch?v=CbTU92pbDKw&t=1537s
+     3. OWCZAR, "GAM Model for Time-Series Forecasting", https://www.kaggle.com/code/owczar/gam-model-for-time-series-forecasting
+
   
     
