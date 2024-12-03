@@ -10,7 +10,7 @@ A project for COMP 6936
   - the language R, mvgam, dplyr, marginaleffects, ggplot2, patchwork
     
 # How to run:
-  - view the compiled project here in GITHUB by clicking "predictor_project.ipynb"
+  - view the compiled project here in GITHUB by clicking "predictor_project.ipynb" (no dependencies required)
   - OR use a .ipynb software like Google Colab or Jupyter and open "predictor_project.ipynb"
 
 
