@@ -35,7 +35,7 @@ A project for COMP 6936
 
 
 # ML Methods:
-  - Models: XGBoost, GAMs, LSTM, Facebook Prophet, MVGAM 
+  - Models: XGBoost, GAMs, LSTM, Facebook Prophet(GAM derived), MVGAM(GAM derived)
   - Scores: RMSE (residual means squared error)
 
 # ML data processing implementation
