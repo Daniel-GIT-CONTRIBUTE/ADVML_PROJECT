@@ -2,16 +2,16 @@
 # COMPARING XGBOOST, GAM, MVGAM, PROPHET, AND LSTM ON THE S&P500
 A project for COMP 6936
 
+# How to run:
+  - view the compiled project here in GITHUB by clicking "predictor_project.ipynb" (no dependencies required)
+  - OR use a .ipynb software like Google Colab or Jupyter and open "predictor_project.ipynb"
+
 # Dependencies
 ### Dependencies (main file "predictor_project.ipynb):  
   - Jupyter Lab, Jupyter Notebook, Google Colab, or any program that reads .ipynb file
   - numpy, pandas, pygam, sklearn, matplotlib, plotly, xgboost, tensorflow.keras, Prophet (facebook), yfinance
 ### Additional Dependencies (sub file "mvgam.ipynb):  
-  - the language R, mvgam, dplyr, marginaleffects, ggplot2, patchwork
-    
-# How to run:
-  - view the compiled project here in GITHUB by clicking "predictor_project.ipynb" (no dependencies required)
-  - OR use a .ipynb software like Google Colab or Jupyter and open "predictor_project.ipynb"
+  - the language R, mvgam, dplyr, marginaleffects, ggplot2, patchwork    
 
 
 # Data  
