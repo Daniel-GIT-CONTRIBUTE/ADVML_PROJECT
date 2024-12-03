@@ -40,8 +40,20 @@ A project for COMP 6936
 
 # ML data processing implementation
 ### XGBoost
-  - Test 
-  - 
+  - Train Process: DF of train data
+  - Test Process: custom loop where the model predicts, appends the data, then based off this, predicts again for n number of times
+### GAMs
+  - Train Process: DF of test data
+  - Test Process: DF of train data
+### LSTM
+  - Train Process: custom DF with 100 lag features. So each day has Time-1 ~ Time-100 of the previous predictors 
+  - Test Process:custom DF with 100 lag features, but feature "close price" is all masked to 0.
+### Prophet
+  - Train Process: DF of test data
+  - Test Process: prophet's built-in future data generation with no features other than a single date
+### MVGAM
+  - Train Process: DF of test data exported to R. Lacks all features but index (simple int) and close price.
+  - Test Process: DF of train data exported to R. Lacks all features but index (simple int). All close price masked as 0.
 
   # Sites Consulted:
      1. Nicholas Clarck, "MVGAM", https://ecogambler.netlify.app/blog/autocorrelated-gams/
