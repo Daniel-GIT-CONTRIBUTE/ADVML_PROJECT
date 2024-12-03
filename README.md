@@ -87,7 +87,7 @@ A project for COMP 6936
  - more experimentation needed for more conclusive review
 #### LSTM:
  - very slow to train and test
- - has close to no ability to learn without a lag feature that has the most weights for learning. XGBoost, on the other hand, for instance relied heavily on "yesterday's price" in training, but in testing, it was deprived of it. Still, it was able to rely on the other variables it was shown.
+ - has close to no ability to learn without a lag feature that has the most weights for learning. XGBoost, on the other hand, for instance relied heavily on "yesterday's price" in training, but in testing, it was deprived of it. This lead to the LSTM only producing noise. 
 
 ## Conclusion/Summary
 In this project, I went back and fixed an XGBoost model that I previously used by eliminating data leakage. Then I used 4 other machine learning models and reviewed each one of them. The general additive models outperformed all the other models out of the box, or with very little modification. They all had explainability metrics. MVGAM is a very new model, and it is not yet optimized for large data. LSTM was given 100 lag features, and it would've performed better if lag feature of "Time-x" feature for previous datas were present, but that would've only made at best 100 predictions more robust. LSTM is only as good as it has remaining lag features in the pipeline, which is not even available for predictions far into the future, XGBoost from the traditional models performed decently, and showed a good ability for generalization, and it was somewhat explainable.
